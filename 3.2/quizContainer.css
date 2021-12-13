@@ -1,0 +1,21 @@
+.quiz {
+	width: 800px;
+	height: 500px;
+	border: 2px solid red;
+	display: flex;
+	align-items: left;
+	flex-flow: column;
+	padding: 50px 50px 50px 50px;
+}
+.quiz-title {
+	font-size: 50px;
+}
+.q {
+	width: 600px;
+	height: 150px;
+	margin-top: 20px;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 10px;
+}
