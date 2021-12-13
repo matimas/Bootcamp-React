@@ -1,0 +1,34 @@
+.Box1 {
+	width: 1000px;
+	height: 600px;
+	background-color: lawngreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Box2 {
+	width: 900px;
+	height: 500px;
+	background-color: rgb(13, 247, 247);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Box3 {
+	width: 800px;
+	height: 400px;
+	background-color: rgb(8, 8, 101);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Box4 {
+	width: 400px;
+	height: 100px;
+	background-color: rgb(252, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
