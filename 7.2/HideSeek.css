@@ -1,0 +1,11 @@
+.hidden {
+	visibility: hidden;
+}
+.show {
+	visibility: visible;
+}
+.box1 {
+	width: 400px;
+	height: 400px;
+	background-color: green;
+}
