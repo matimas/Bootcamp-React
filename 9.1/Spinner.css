@@ -1,0 +1,27 @@
+.change-color {
+	width: 500px;
+	height: 500px;
+	background: rgb(255, 174, 0);
+	border: 2px solid black;
+}
+.green {
+	background: green;
+}
+.red {
+	background: red;
+}
+.black {
+	background: black;
+}
+.blue {
+	background: blue;
+}
+.aqua {
+	background: aqua;
+}
+.brown {
+	background: brown;
+}
+.white {
+	background: white;
+}
