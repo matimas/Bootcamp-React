@@ -1,0 +1,22 @@
+.jokes-container {
+	width: 800px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.jokes-container button {
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background: chartreuse;
+	cursor: pointer;
+}
+select {
+	width: 100px;
+	height: 40px;
+	background: coral;
+	margin: 10px;
+}
