@@ -16,7 +16,7 @@ const ProductItem = (props) => {
 				<div>
 					<img src={productItem.imageUrl} alt={productItem.title} />
 				</div>
-				<div>{productItem.price}</div>
+				<div>Price :{productItem.price}</div>
 				<button onClick={() => history.goBack()}>back</button>
 			</fieldset>
 		</div>
