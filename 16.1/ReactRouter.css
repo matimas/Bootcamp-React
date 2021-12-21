@@ -1,0 +1,35 @@
+.r-r-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header {
+	display: block;
+	height: 5vh;
+	background: aquamarine;
+	width: 100vh;
+}
+.header a {
+	margin: 5px;
+}
+.products {
+	display: flex;
+	flex-direction: column;
+}
+.product-item {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.product-item img {
+	width: 200px;
+	height: 200px;
+}
+.product-item button {
+	width: 100px;
+	border-radius: 5px;
+}
