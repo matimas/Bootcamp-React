@@ -19,13 +19,16 @@ export default function Countries() {
 		setCountries(data);
 	};
 
-	const userFilter = (e) => {
-		setTerm(e);
+	const userFilter = (userInput) => {
+		setTerm(userInput);
 		const filterdCountries = countriesData.filter((country) => {
-			return country.name.includes(e);
+			if (country.name.includes(userInput)) {
+				return country;
+			}
+			return '';
 		});
 		console.log(filterdCountries);
-		if (e === '') {
+		if (userInput === '') {
 			setCountries(countriesData);
 		}
 		setCountries(filterdCountries);
