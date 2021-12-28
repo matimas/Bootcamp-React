@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 20px rgba(125, 0, 0, 0.3);
+}
+.content {
+	margin: 20px;
+	color: dodgerblue;
+	padding: 22px 2px 20px 179px;
+	line-height: 1.7em;
+	cursor: pointer;
+}
+.container button {
+	cursor: pointer;
+	background-color: #e3e3e3;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.search-container {
+	display: flex;
+	width: 400px;
+	justify-content: space-evenly;
+}
